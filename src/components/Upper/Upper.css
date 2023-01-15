@@ -1,0 +1,28 @@
+.upper {
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.nav__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin: 0 auto 3rem;
+}
+
+.nav__list a:hover {
+    color: white;
+}
+
+.upper__logo {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 0;
+    display: inline-block;
+}
